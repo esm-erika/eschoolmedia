@@ -1,0 +1,127 @@
+
+html body {
+	background-color: #336699;
+}
+
+div.off-canvas-content h1, div.off-canvas-content h2, div.off-canvas-content h3, div.off-canvas-content h4, div.off-canvas-content h5, div.off-canvas-content h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	line-height: 1;
+}
+
+div.off-canvas-content {
+	background-color: transparent;
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+#top-bar-menu {
+    padding: 1.25rem 0;
+    background-color: #fff;
+}
+
+#top-bar-menu ul {
+	background-color: transparent;
+	text-align: center;
+}
+
+#top-bar-menu .menu.medium-horizontal > li {
+	display: inline-block;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+#top-bar-menu .menu.medium-horizontal > li a {
+	color: #666;
+}
+
+body.home section {
+	height: 100vh;
+	position: relative;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+
+body.home section .content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #336699;
+	padding: 35px 0;
+	background-image: url(../images/bg-pattern.png);
+	background-size: 100%;
+	background-position: center center;
+}
+
+body.page section {
+	height: auto;
+	background-color: #fff;
+}
+
+body.page section article {
+	padding: 35px 0;
+}
+
+section .content .section-title {
+	color: #fff;
+}
+
+section .content .sub-title {
+	color: #66ccff;
+	margin: 0;
+}
+
+section .content .sub-title p {
+	line-height: 1;
+	margin: 0;
+}
+
+#icons {
+	color: #fff;
+	padding: 35px 0;
+}
+
+#icons i {
+	font-size: 3.75rem;
+	line-height: 1;
+}
+
+#icons small {
+	display: block;
+}
+
+footer.footer {
+	background-color: transparent;
+	margin-top: 0;
+}
+
+footer #inner-footer {
+	background-color: #fff;
+	padding: 35px 0;
+}
+
+footer .social a {
+	margin-left: 10px;
+	color: #336699;
+}
+
+footer .social i {
+	font-size: 2rem;
+	line-height: 1;
+}
+
+#menu-footer-links a {
+	color: #fff;
+}
+
+footer .copyright {
+	padding: 0.7rem 1rem;
+	line-height: 1;
+}
